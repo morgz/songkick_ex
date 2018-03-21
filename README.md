@@ -45,6 +45,15 @@ def deps do
 end
 ```
 
+### Usage
+
+EG.
+
+Get all concerts in London between dates
+```
+Songkick.Events.get_events(%{location: "sk:24426", min_date: "2018-03-21", max_date: "2018-03-22", type: "Concert"})
+```
+
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/songkick_ex](https://hexdocs.pm/songkick_ex).
