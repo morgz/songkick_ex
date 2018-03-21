@@ -1,6 +1,6 @@
 defmodule Songkick.Location do
-  import Helpers
-  use Responder
+  import Songkick.Helpers
+  use Songkick.Responder
   alias Songkick.{Client}
 
   @doc """

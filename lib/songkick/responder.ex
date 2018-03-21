@@ -1,10 +1,10 @@
-defmodule Responder do
+defmodule Songkick.Responder do
   @moduledoc """
   Recieves http responses from the client and handles them accordingly.
   """
   defmacro __using__(_opts) do
     quote do
-      import Responder
+      import Songkick.Responder
     end
   end
 

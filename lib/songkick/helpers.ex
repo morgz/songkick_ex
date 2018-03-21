@@ -1,4 +1,4 @@
-defmodule Helpers do
+defmodule Songkick.Helpers do
   @moduledoc false
   def query_string(nil), do: ""
   def query_string([]), do: ""
