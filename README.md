@@ -1,6 +1,8 @@
 # SongkickEx
 
-**TODO: Add description**
+This is a work in progress. An Elixir Wrapper around the Songkick API. Feel free PR to cover more endpoints.
+
+Structurally it's based on [spotify_ex](https://github.com/jsncmgs1/spotify_ex)
 
 ## Installation
 
